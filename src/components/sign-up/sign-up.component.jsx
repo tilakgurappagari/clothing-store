@@ -76,6 +76,7 @@ class SignUp extends Component{
                                 onChange={this.onHandleChange}
                                 label= 'Password'
                                 required
+                                autoComplete="off"
                                 >
 
                     </FormInput>
@@ -86,6 +87,7 @@ class SignUp extends Component{
                                 onChange={this.onHandleChange}
                                 label= 'Confirm Password'
                                 required
+                                autoComplete="off"
                                 >
 
                     </FormInput>
