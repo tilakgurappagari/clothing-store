@@ -42,7 +42,7 @@ class SignIn extends Component{
                           value={this.state.password}
                           onHandleChange={this.onHandleChange}
                           label="password"
-                           required />
+                           required autoComplete="off" />
                         
                         <div className="buttons">
                         <Button type="submit"  >SIGN IN</Button>
